@@ -1,0 +1,41 @@
+:root {
+    --width-main: 300px;
+    --heigth-main: 300px;
+}
+
+* {
+    margin: 0 0;
+}
+
+#main {
+    width: var(--width-main);
+    height: var(--heigth-main);
+    margin-top: 100px;
+    margin-left: calc(50% - var(--width-main) / 2);
+}
+
+
+.box {
+    width: calc(var(--width-main) / 3);
+    height: calc(var(--width-main) / 3);
+    background-color: rgb(177, 253, 228);
+    float: left;
+    font-weight:bold;
+    border-width: 1px;
+    font-size:26px;
+}
+
+.box:hover {
+    background-color: rgb(245, 218, 227);
+}
+
+.clear {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    font-size: 50px;
+    border-radius: 50%;
+    border-color: black;
+    margin-left: calc(50% - 40px);
+    background-color: aquamarine;
+}
